@@ -79,7 +79,7 @@
 
 
 (define-test test-mapcar
-    "mapcar takes a list an a function.  It returns a new list
+    "mapcar takes a list and a function.  It returns a new list
      with the function applied to each element of the input"
   (let ((mc-result (mapcar #'evenp '(1 2 3 4 5))))
     (assert-equal mc-result ____)))
